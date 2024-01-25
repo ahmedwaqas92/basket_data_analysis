@@ -51,9 +51,3 @@ class basketData():
             transactions.append({"transaction_id": str(uuid.uuid4()), "items": transaction_dict})
         
         basketData.jsonLoads()
-
-
-basketData.generatingData()
-
-
-
